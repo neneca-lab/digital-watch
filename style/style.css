@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+body, html {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+}
+
+.relogio {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.relogio p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.display {
+  box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.356);
+  background-color: #2c2e43;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  font-size: 6rem;
+  border-radius: 10px;
+  border: 10px solid #ffd523;
+}
+
+footer {
+  font-size: 1.5rem;
+  margin-top: 11px;
+  color: #333;
+}
